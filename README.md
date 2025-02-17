@@ -1,5 +1,5 @@
 # udacity_repo
-This is a repository to gain familiarity with git and Github.
+This is a repository include list of important commands for git, Github, etc.
 
 ## git Commands
 * git clone
