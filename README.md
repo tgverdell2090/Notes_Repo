@@ -12,8 +12,10 @@ This is a repository include list of important commands for git, Github, etc.
 
 ## Adding New git Commands on 12-1-24
 #### git commands
-* git checkout - swich branch
+* git remote -v -> Check if the remote URL is configured correctly:
+* git checkout -> swich branch
 * git checkout -b -> create and switch to branch
 * git push
 * git push origin
 * git push --set-upstream orgin -> make branch available on remote repository (GitHub)
+* git remote add origin https://<your-token>@github.com/your-username/your-repository.git ->Use the command to add the remote URL with your fine-grained personal access token:
