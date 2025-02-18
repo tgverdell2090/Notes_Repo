@@ -23,5 +23,20 @@ This is a repository include list of important commands for git, Github, etc.
       1. export GITHUB_FINEGRAINED_TOKEN=your-fine-grained-token
       2. git remote add origin https://$GITHUB_FINEGRAINED_TOKEN@github.com/your-username/your-repository.git
 
+## Anaconda Commands:
+### List all conda environments
+* conda env list
 
+### Remove an environment
+* conda env remove --name myenv
+
+### Export environment to YAML file
+* conda env export > environment.yml
+
+### Create environment from YAML file
+* conda env create -f environment.yml
+
+### Activate/Deactivate
+* conda deactivate
+* conda eactivate
  
