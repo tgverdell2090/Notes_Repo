@@ -39,4 +39,6 @@ This is a repository include list of important commands for git, Github, etc.
 ### Activate/Deactivate
 * conda deactivate
 * conda eactivate
- 
+
+### Requirements.txt Generation
+* pip freeze > requirements.txt
