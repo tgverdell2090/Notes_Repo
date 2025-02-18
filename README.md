@@ -24,6 +24,10 @@ This is a repository include list of important commands for git, Github, etc.
       2. git remote add origin https://$GITHUB_FINEGRAINED_TOKEN@github.com/your-username/your-repository.git
 
 ## Anaconda Commands:
+
+### Create a new conda environment
+* conda create --name myenv python=3.9
+
 ### List all conda environments
 * conda env list
 
@@ -42,3 +46,4 @@ This is a repository include list of important commands for git, Github, etc.
 
 ### Requirements.txt Generation
 * pip freeze > requirements.txt
+* pip install -r requirements.txt
