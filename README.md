@@ -19,9 +19,13 @@ This is a repository include list of important commands for git, Github, etc.
 * git push origin
 * git push --set-upstream orgin -> make branch available on remote repository (GitHub)
 * git remote add origin https://<your-token>@github.com/your-username/your-repository.git ->Use the command to add the remote URL with your fine-grained personal access token.
-  ** Alternative
-      1. export GITHUB_FINEGRAINED_TOKEN=your-fine-grained-token
-      2. git remote add origin https://$GITHUB_FINEGRAINED_TOKEN@github.com/your-username/your-repository.git
+  * Alternative
+```  
+ export GITHUB_FINEGRAINED_TOKEN=your-fine-grained-token
+```
+```
+ git remote add origin https://$GITHUB_FINEGRAINED_TOKEN@github.com/your-username/your-repository.git
+```
 
 ## Anaconda Commands:
 
